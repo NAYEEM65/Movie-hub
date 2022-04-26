@@ -1,0 +1,39 @@
+.header {
+    background-color: #001e6c;
+    color: #fcd900;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0px 5px 5px 0px rgba(168, 215, 239, 0.299);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(168, 215, 239, 0.299);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(168, 215, 239, 0.299);
+}
+.header h3 {
+    z-index: 100;
+}
+.header span {
+    color: #e8630a;
+    font-style: italic;
+}
+.headerNav .MuiBottomNavigation-root.css-16lloyr-MuiBottomNavigation-root {
+    background: #001e6c !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+.MuiBottomNavigation-root.css-16lloyr-MuiBottomNavigation-root button {
+    color: #fcd900 !important;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}

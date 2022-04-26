@@ -1,0 +1,49 @@
+.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-x2orph-MuiButtonBase-root-MuiButton-root {
+    height: 57px !important;
+    width: 6vw !important;
+}
+.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-x2orph-MuiButtonBase-root-MuiButton-root
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    height: 2rem !important;
+    width: 2rem !important;
+}
+.css-10v1b7l-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+}
+.css-uedv26-MuiInputBase-root-MuiFilledInput-root::before {
+    border-bottom: 1px solid #fcd900 !important;
+}
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+    color: white !important;
+}
+.css-1vn4y0d-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fcd900 !important;
+}
+.css-1rzikhh-MuiInputBase-root-MuiFilledInput-root::before {
+    border-bottom: 1px solid #fcd900 !important;
+}
+.search__tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.css-1ujnqem-MuiTabs-root {
+    width: 40% !important;
+}
+.css-18md96b-MuiButtonBase-root-MuiTab-root {
+    color: #fff !important;
+    font-weight: bold;
+}
+@media (max-width: 1920px) {
+    .search {
+        width: 50%;
+        margin: 0 auto !important;
+    }
+}
+@media (max-width: 468px) {
+    .search {
+        width: 80%;
+        margin: 0 auto !important;
+    }
+}
