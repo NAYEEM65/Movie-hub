@@ -30,10 +30,27 @@
 .MuiBottomNavigation-root.css-16lloyr-MuiBottomNavigation-root button {
     color: #fcd900 !important;
 }
+.headerNav {
+    position: fixed;
+    bottom: 0;
+}
 
 @media (max-width: 1000px) {
     .header {
         padding-top: 15px;
         font-size: 6.4vw;
+    }
+}
+@media (max-width: 400px) {
+    .header {
+        padding-top: 15px;
+        font-size: 5vw;
+    }
+    .header svg {
+        width: 300px;
+    }
+    .headerNav .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root {
+        padding: 0px 12px;
+        min-width: 60px !important;
     }
 }

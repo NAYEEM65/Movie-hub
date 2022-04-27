@@ -7,7 +7,21 @@ import axios from 'axios';
 import SingleContent from '../SingleContent/SingleContent';
 import CustomPagination from '../CustomPagination/CustomPagination';
 
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles({
+    root: {
+        border: 0,
+        borderRadius: 3,
+        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+        color: 'white',
+        height: 52,
+        backgroundColor: '#E8630A',
+    },
+});
+
 const Search = () => {
+    const classes = useStyles();
     const [type, setType] = useState(0);
     const [page, setPage] = useState(1);
     const [searchText, setSearchText] = useState('');
@@ -55,7 +69,12 @@ const Search = () => {
                         variant="filled"
                         onChange={(e) => setSearchText(e.target.value)}
                     />
-                    <Button variant="contained" style={{ marginLeft: 10 }} onClick={fetchSearch}>
+                    <Button
+                        variant="contained"
+                        className={classes.root}
+                        style={{ marginLeft: 10 }}
+                        onClick={fetchSearch}
+                    >
                         {' '}
                         <SearchIcon />
                     </Button>
